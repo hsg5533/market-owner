@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  color: var(--dark_01);
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+a {
+  text-decoration: none;
+  color: var(--dark_01);
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: var(--dark_01);
+}
+img {
+  max-width: 100%;
+}
+.login_cont input::placeholder {
+  color: var(--dark_05);
+}
+.login_cont input::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.login_cont input:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+.menu_price_box input::placeholder {
+  color: var(--dark_05);
+}
+.menu_price_box input::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.menu_price_box input:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+.infor_cont textarea::placeholder {
+  color: var(--dark_05);
+}
+.infor_cont textarea::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.infor_cont textarea:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+.fh_closed input::placeholder {
+  color: var(--dark_05);
+}
+.fh_closed input::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.fh_closed input:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+.pw_list input::placeholder {
+  color: var(--dark_05);
+}
+.pw_list input::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.pw_list input:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+.oneline input::placeholder {
+  color: var(--dark_05);
+}
+.oneline input::-webkit-input-placeholder {
+  color: var(--dark_05);
+}
+.oneline input:-ms-input-placeholder {
+  color: var(--dark_05);
+}
+
+select {
+  -webkit-appearance: none; /* for chrome */
+  -moz-appearance: none; /*for firefox*/
+  appearance: none;
+}
+
+.event_img > a > img,
+.infor_img img,
+.menu_img a > img,
+.sub_infor_img img,
+.menu_infor_txt img,
+.event_infor_txt img,
+.inquiry_cont img {
+  border: 1px solid var(--line_03);
+  border-radius: 10px;
+}
+.main_notice,
+.main_infor,
+.main_event,
+.main_menu {
+  background-color: var(--primary_04);
+  border-radius: 10px;
+}
+textarea,
+input {
+  border-radius: 5px;
+  outline: none;
+  font-size: 18px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 300;
+  display: inline-block;
+  color: var(--dark_05);
+}
+input:disabled {
+  background-color: var(--primary_04);
+  cursor: pointer;
+}

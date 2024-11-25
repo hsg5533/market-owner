@@ -1,0 +1,29 @@
+input::file-selector-button {
+  display: none;
+}
+
+.filebox input[type="file"] {
+  display: none;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: 7px;
+  color: #fff;
+  vertical-align: middle;
+  color: var(--primary_04);
+  background-color: var(--primary_02);
+  cursor: pointer;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+
+.filebox #upload-name {
+  display: inline-block;
+  width: 67%;
+  height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+  color: #999999;
+}
