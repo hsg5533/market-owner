@@ -107,7 +107,7 @@ class main_rg extends React.Component {
                             <input
                               type="file"
                               id="file"
-                              name="imgUpload"
+                              name="img"
                               accept="image/*"
                               multiple
                               onChange={(event) => {

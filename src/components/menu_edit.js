@@ -191,7 +191,7 @@ class menu_edit extends React.Component {
                           <input
                             id="file"
                             type="file"
-                            name="imgUpload"
+                            name="img"
                             accept="image/*"
                             multiple
                             onChange={(event) => {
